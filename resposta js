@@ -1,0 +1,48 @@
+
+let listaDeCompras = ["pão", "leite", "ovos", "queijo", "frutas"];
+
+// Exibindo a lista inicial
+console.log("Lista inicial:", listaDeCompras);
+
+// Adicionando "café" ao final da lista
+listaDeCompras.push("café");
+console.log( listaDeCompras);
+
+// Adicionando "manteiga" ao início da lista
+listaDeCompras.unshift("manteiga");
+console.log (listaDeCompras);
+
+// Removendo o último item da lista e armazenando em itemRemovido
+let itemRemovido = listaDeCompras.pop();
+console.log(itemRemovido);
+console.log(listaDeCompras);
+
+// Removendo o primeiro item da lista e armazenando em primeiroItemRemovido
+let primeiroItemRemovido = listaDeCompras.shift();
+console.log(primeiroItemRemovido);
+console.log(listaDeCompras);
+
+// Modificando o segundo item da lista para "chocolate"
+listaDeCompras.splice(1, 1, "chocolate");
+console.log(listaDeCompras);
+
+// Removendo o terceiro item e adicionando "biscoitos" e "suco"
+listaDeCompras.splice(2, 1, "biscoitos", "suco");
+console.log(listaDeCompras);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
